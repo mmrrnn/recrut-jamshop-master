@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@1,100&display=swap");
+
+.Wrapper {
+  margin-top: 6rem;
+}
+
+.productListTextContainer {
+  padding: 0 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.productListTextContainer h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.productListTextContainer p {
+  color: #c4c4c4;
+}
+
+@media (min-width: 992px) {
+  .Wrapper {
+    margin-top: 0;
+  }
+
+  .productListTextContainer {
+    padding-left: 8rem;
+  }
+}

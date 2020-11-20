@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+.container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  z-index: 4;
+}
+
+.brandContainer {
+  margin-left: 3rem;
+}
+
+.brandContainer a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #e4e3e3;
+}
+
+.basketContainer {
+  position: relative;
+  margin-right: 3rem;
+}
+
+.basketContainer:hover {
+  cursor: pointer;
+}
+
+.basketNumber {
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  right: -0.5rem;
+  top: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50%;
+  background: #301346;
+}

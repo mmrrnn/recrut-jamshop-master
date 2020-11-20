@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.wrapper {
+  margin: 2rem;
+}
+
+.productImageContainer {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.productImageContainer img {
+  width: 50%;
+}
+
+.productContentContainer * {
+  font-family: "Roboto", sans-serif;
+  color: #eee;
+}
+
+.productContentContainer h3 {
+  font-size: 1.5rem;
+}
+
+.productContentContainer span {
+  text-transform: uppercase;
+  color: #fbe067;
+}
+
+.productContentContainer p {
+  color: #c4c4c4;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .productImageContainer {
+    margin: 0 4rem 0 auto;
+  }
+
+  .productImageContainer img {
+    width: 18rem;
+  }
+
+  .productContentContainer {
+    margin: 0 auto 0 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .productImageContainer img {
+    width: 20rem;
+  }
+
+  .productContentContainer {
+    width: 20rem;
+    margin: 0 auto 0 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .productImageContainer img {
+    width: 23rem;
+  }
+
+  .productContentContainer {
+    width: 23rem;
+    margin: 0 auto 0 4rem;
+  }
+}
